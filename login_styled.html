@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>   
+</head>
+<body>
+    <!-- nadpis přihlášení -->
+    <header>
+        <h1 class="text-4xl font-bold text-zinc-800 text-center">Přihlášení</h1>
+    </header>
+
+    <!-- umožní daný blok ohraničit kolem dokola a dostat doprostřed obrazovky -->
+    <div class="block border border-gray-300 rounded-lg shadow-lg w-96 mx-auto">
+    <main>
+        <!-- formulář -->
+        <form action="" method="post">
+            <!-- přihlášení skrze email -->
+            <div class="flex flex-col items-center">
+                <label for="email">Přihlašovací údaje:</label> 
+                <input type="email" name="email" placeholder="petrnovak1@gmail.com" class="border border-gray-300 rounded mb-4">
+            </div>
+
+            <!-- zadání hesla -->
+            <div class="flex flex-col items-center">
+                <label for="password"> Heslo:</label> 
+                <input type="password" name="password" placeholder="password" class="border border-gray-300 rounded ">
+            </div>
+
+            <!-- obnova zapomenutého hesla -->
+            <div class="text-xs flex items-center justify-center mb-2">
+                <p>Zapomenuté heslo? <a href="Obnovit.html" class="text-sm font-bold">Obnovit!</a></p>
+            </div>
+
+            <!-- checkbox pro zakliknutí -->
+            <div class="flex items-center justify-center">
+                <input type="checkbox" name="checkbox" id="checkbox" class="h-4 w-4 mr-2">
+                <label for="checkbox" class="font-bold">Zapamatuj si mě</label>
+            </div>
+
+            <!-- tlačítko pro odeslání formuáře -->
+            <div class="flex flex-col items-center border rounded-full bg-stone-900 text-stone-50 font-bold p-2 m-4 hover:bg-stone-700">
+                <input type="submit" name="submit" value="Přihlásit se" >
+            </div>
+            
+        </form>
+    </main>
+    </div>
+        
+
+    <!-- option+ šipky umožnuji presouvat treba spodní div dolu,
+     option+shift+sipky nahoru dolu umožní kopírovat dané slovo 
+     option a kliknu něka víckrat, tak mohu psat ve vice mistech najednou-->
+
+
+     <!-- DODĚLAT SKRZE PŘEDNÁŠKU! -->

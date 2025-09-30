@@ -1,0 +1,19 @@
+
+/* co chci měnit(h1, poté vlastnost (color) a jakou vlastno zvolim (blue) */
+/* id se označuje jako # a má přednost před třídou (.) */
+/* třída se označuje jako . */
+#prvni_nadpis {
+    color:brown
+}
+
+#druhy_nadpis {
+    color:green
+}
+
+.blue {
+    color:blue
+}
+
+.small {
+    font-size:12px
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <header>
+        <h1 class="text-4xl font-bold text-fuchsia-600 ml-6 mt-4 text-center">Přihlášení</h1>
+    </header>
+
+    <div class="m-4 p-4 border border-gray-300 rounded-lg shadow-lg w-96 mx-auto">
+    <main>
+        
+        <!-- block udělá z inputu blokový prvek, takže ho můžu centrovat pomocí mx-auto -->
+        <form action="login_style.html" method="post">
+            <input type="email" name="email" placeholder="e-mailová adresa"
+                    class="block border border-gray-300 p-2 rounded mx-auto w-72 mx-auto">
+                    
+                    <br>
+            
+            <p class="text-xs ml-20">Zapomenuté heslo? <a href="reset.html" class="font-bold">Obnovit</a></p>
+            
+           <input type="password" name="password" placeholder="heslo"
+                    class="block border border-gray-300 p-2 rounded m-4 mt-2 mx-auto w-72"><br>
+            <input type="checkbox" name="remember" id="remember" class="ml-4 mr-2 font-bold">
+            <label for="remember">Zapamatovat si mě</label><br>
+            <input type="submit" value="Přihlásit se" class="bg-stone-900 text-stone-50 font-bold p-2 rounded m-4 pl-8 pr-8">
+    </main>
+    <p class="ml-4 text-sm">Nemáš účet? <a href="register.html" class="font-bold text-lg">Zaregistruj se</a></p>
+
+    </div>
+
+    <!-- DOBRÉ BY BYLO, KDYBY SE KAŽDÝ BLOK KÓDU ROZDĚLIL DO DIV -->
+</body>
+</html>
